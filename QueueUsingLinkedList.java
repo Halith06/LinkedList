@@ -51,12 +51,12 @@ public class QUEUEUSINGLINKEDLIST {
     }
     public static void main(String[] args) {
         Queue qu=new Queue();
-        qu.enqueue(1);
+        qu.enqueue(1);   //enqueue objects to queue
         qu.enqueue(2);
         qu.enqueue(3);
         qu.enqueue(4);
         qu.enqueue(5);
-        qu.print();
+        qu.print(); //calling function to print queue
     }
 }
 
